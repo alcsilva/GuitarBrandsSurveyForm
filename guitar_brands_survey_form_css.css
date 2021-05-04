@@ -1,0 +1,38 @@
+body{
+  background-image: url(https://www.innovarepesquisa.com.br/wp-content/uploads/2013/12/BG3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#div-form{
+  margin: 50px;
+  padding: 10px 20px 10px 20px;
+  background:linear-gradient(35deg,hsl(240,5%,60%),hsl(255,5%,100%));
+  border-radius: 5px;
+  line-height: 25px;
+  font-family: Arial, sans-serif;
+  font-size: 15px; 
+}
+.text-align{
+  text-align: center;
+}
+.clue{
+  font-size: 13px;
+  font-weight: bold;
+}
+#submit{
+  padding: 10px 480px;
+  margin: 5px 100px; 
+  background-color: hsl(240,5%,50%);
+  border-radius: 12px;
+  border: 2px;
+  cursor:pointer;
+}
+#submit:hover{
+  transform: scale(1.02);
+  background-color: hsl(240,5%,45%);
+}
+#title{
+  text-transform: uppercase;  
+}
+

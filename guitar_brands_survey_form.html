@@ -1,0 +1,41 @@
+<h1 id="title" class="text-align"> Guitar Brands Survey Form </h1>
+<p id="description" class="text-align"> Thanks for helping to improve this website</p>
+  <div id="div-form">
+   <form id="survey-form">
+    <label id="name-label" for="name"> Name: <br>
+      <input type="text" id="name" name="name" placeholder="Type your name" required></label> <br>
+    <label id="email-label" for="email"> Email: <br>
+      <input type="email" id="email" name="email" placeholder="Insert your email" required></label> <br>
+    <label id="number-label" for="number"> Age: <br>
+      <input type="number" id="number" name="number" min="18" max="99" placeholder="Age" required></label> <br>
+    <p> Please, choose a guitar brand which you like most: </p>
+      <input type="radio" id="fender" name="brand" value="fender" checked>
+      <label for="fender">Fender</label><br> 
+      <input type="radio" id="gibson" name="brand" value="gibson">
+      <label for="gibson">Gibson</label><br>
+      <input type="radio" id="taylor" name="brand" value="taylor">
+      <label for="taylor">Taylor</label><br> 
+      <input type="radio" id="martin" name="brand" value="martin">
+      <label for="martin">Martin</label><br> 
+      <input type="radio" id="other" name="brand" value="other">
+      <label for="other">Other</label><br>
+      <p> How did you hear about this survey form?</p>
+        <select name="dropdown" id="dropdown" required>
+          <option disabled selected value>Please select</option>
+          <option value="friends">Friends</option>
+          <option value="Whatsapp">Whatsapp</option>
+          <option value="site">Another Website</option>
+          <option value="adds">Adds</option>
+         </select><br>
+    <p> What would you like to improve about this webpage:</p>
+      <label><input type="checkbox" value="design">Design</label><br>
+      <label><input type="checkbox" value="background">Background Color/Image</label><br>
+      <label><input type="checkbox" value="font-style">Font Style</label><br>
+      <label><input type="checkbox" value="font-size">Font Size</label><br>
+      <label><input type="checkbox" value="accessibility">Accessibility</label><br>
+      <label><input type="checkbox" value="other">Other</label><br>
+    <p>Tell us about the suggestion you have for this website that was not mentioned in the previous options. <span class="clue">(In case you've chosen the option "Other")</span></p>
+      <textarea id="sugestions"name="sugestions" rows="5" cols="167" placeholder="Type here your suggestions"></textarea><br>
+    <button id="submit"> <strong>Submit</strong> </button>
+  </form>
+ </div>
